@@ -4,7 +4,7 @@
 <br><br>
 # 效果图：
 
-![]http://s12.sinaimg.cn/mw690/0028NHt6gy6TAwZS09teb&690
+![sina]http://s12.sinaimg.cn/mw690/0028NHt6gy6TAwZS09teb&690
 
 <br><br>
 # How to use：
