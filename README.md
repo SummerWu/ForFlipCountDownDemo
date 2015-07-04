@@ -1,7 +1,12 @@
 # ForFlipCountDownDemo
 
 使用了CALayer框架来做出3D翻页效果的倒计时demo。
+<br><br>
+# 效果图：
 
+![]http://s12.sinaimg.cn/mw690/0028NHt6gy6TAwZS09teb&690
+
+<br><br>
 # How to use：
 
 使用起来非常简单：
