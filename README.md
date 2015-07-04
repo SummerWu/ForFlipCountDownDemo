@@ -33,4 +33,4 @@
 创建双层layer的方法在我源码的CustomLayer这个类里面。
 
 <br><br>
-欢迎大家对我的demo提意见。
+欢迎大家对本人的demo提意见哈。
