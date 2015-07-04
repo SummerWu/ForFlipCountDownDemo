@@ -14,6 +14,9 @@
 		7F2676F31B4665FF00DFD23F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2676F21B4665FF00DFD23F /* Images.xcassets */; };
 		7F2676F61B4665FF00DFD23F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F2676F41B4665FF00DFD23F /* LaunchScreen.xib */; };
 		7F2677021B4665FF00DFD23F /* ForFlipCountDownDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2677011B4665FF00DFD23F /* ForFlipCountDownDemoTests.m */; };
+		7F2677101B4666C300DFD23F /* JHFlipCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F26770D1B4666C300DFD23F /* JHFlipCountDownView.m */; };
+		7F2677111B4666C300DFD23F /* JHFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F26770F1B4666C300DFD23F /* JHFlipNumberView.m */; };
+		7F2677191B466C8F00DFD23F /* CustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2677171B466C8F00DFD23F /* CustomLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,13 @@
 		7F2676FB1B4665FF00DFD23F /* ForFlipCountDownDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForFlipCountDownDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2677001B4665FF00DFD23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F2677011B4665FF00DFD23F /* ForFlipCountDownDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForFlipCountDownDemoTests.m; sourceTree = "<group>"; };
+		7F26770C1B4666C300DFD23F /* JHFlipCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFlipCountDownView.h; sourceTree = "<group>"; };
+		7F26770D1B4666C300DFD23F /* JHFlipCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFlipCountDownView.m; sourceTree = "<group>"; };
+		7F26770E1B4666C300DFD23F /* JHFlipNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFlipNumberView.h; sourceTree = "<group>"; };
+		7F26770F1B4666C300DFD23F /* JHFlipNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFlipNumberView.m; sourceTree = "<group>"; };
+		7F2677171B466C8F00DFD23F /* CustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayer.m; sourceTree = "<group>"; };
+		7F2677181B466C8F00DFD23F /* CustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayer.h; sourceTree = "<group>"; };
+		7F26771A1B466D0600DFD23F /* Flip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flip.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		7F2676E41B4665FF00DFD23F /* ForFlipCountDownDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7F26770B1B4666C300DFD23F /* jhFlipCountDown */,
 				7F2676E91B4665FF00DFD23F /* AppDelegate.h */,
 				7F2676EA1B4665FF00DFD23F /* AppDelegate.m */,
 				7F2676EC1B4665FF00DFD23F /* ViewController.h */,
@@ -117,6 +128,20 @@
 				7F2677001B4665FF00DFD23F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F26770B1B4666C300DFD23F /* jhFlipCountDown */ = {
+			isa = PBXGroup;
+			children = (
+				7F26771A1B466D0600DFD23F /* Flip.h */,
+				7F2677171B466C8F00DFD23F /* CustomLayer.m */,
+				7F2677181B466C8F00DFD23F /* CustomLayer.h */,
+				7F26770C1B4666C300DFD23F /* JHFlipCountDownView.h */,
+				7F26770D1B4666C300DFD23F /* JHFlipCountDownView.m */,
+				7F26770E1B4666C300DFD23F /* JHFlipNumberView.h */,
+				7F26770F1B4666C300DFD23F /* JHFlipNumberView.m */,
+			);
+			path = jhFlipCountDown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F2676EE1B4665FF00DFD23F /* ViewController.m in Sources */,
+				7F2677101B4666C300DFD23F /* JHFlipCountDownView.m in Sources */,
+				7F2677191B466C8F00DFD23F /* CustomLayer.m in Sources */,
 				7F2676EB1B4665FF00DFD23F /* AppDelegate.m in Sources */,
+				7F2677111B4666C300DFD23F /* JHFlipNumberView.m in Sources */,
 				7F2676E81B4665FF00DFD23F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ForFlipCountDownDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ForFlipCountDownDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +446,7 @@
 				7F2677071B4665FF00DFD23F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F2677081B4665FF00DFD23F /* Build configuration list for PBXNativeTarget "ForFlipCountDownDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +455,7 @@
 				7F26770A1B4665FF00DFD23F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
